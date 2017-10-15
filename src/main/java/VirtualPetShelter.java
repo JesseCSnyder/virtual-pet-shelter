@@ -14,6 +14,12 @@ public class VirtualPetShelter {
 		pets.put(pet.getName(), pet);
 	}
 
+	public void restPets() {
+		for (VirtualPet current : pets.values()) {
+			current.sleep();
+		}
+	}
+
 	public void feedPets() {
 		for (VirtualPet current : pets.values()) {
 			current.feed();
