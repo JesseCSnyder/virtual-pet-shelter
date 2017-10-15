@@ -1,0 +1,1 @@
+virtual-pet-shelter loops until the user chooses to quit or the shelter runs out of pets.
